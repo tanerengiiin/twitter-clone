@@ -1,0 +1,145 @@
+.firstPage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.fp_left{
+    width: 50% !important;
+}
+.fp_right{
+    width: 50% !important;
+    background-color: white;
+    height: 100vh;
+    color: #0B112E;
+    padding-left: 25px;
+}
+.fp_leftImg{
+    object-fit: cover;
+}
+.fp_leftImg img{
+    object-fit: cover;
+}
+.left_tweetIcon{
+    position: absolute;
+    font-size: 400px !important;
+    top: 30%;
+    left: 12%;
+    color: white;
+}
+.right_tweetIcon{
+    margin-top: 150px;
+}
+.fp_header1{
+    font-size:70px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #242d34;
+}
+.fp_header2{
+    font-size:40px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #242d34;
+}
+.login_container{
+    width: 50%;
+}
+.login_email{
+    margin-top: 20px;
+}
+.login_pass{
+    margin-top: 20px;
+}
+.login_buttonButton{
+    background-color: var(--twitter-color) !important;
+    color: white !important;
+    border: none !important;
+    font-weight: 700 !important;
+    border-radius: 50px !important;
+    font-size: 18px !important;
+    padding: 10px 15px !important;
+    text-transform: inherit !important;
+    margin-top: 20px !important;
+    -webkit-box-shadow: 0px 3px 20px 0px rgba(182, 182, 182, 0.57) !important; 
+    box-shadow: 0px 3px 20px 0px rgba(182, 182, 182, 0.57) !important;
+}
+.signup_buttonButton{
+    color: var(--twitter-color) !important;
+    font-weight: 700 !important;
+    border-radius: 50px !important;
+    font-size: 18px !important;
+    padding: 10px 15px !important;
+    text-transform: inherit !important;
+    margin-top: 20px !important;
+}
+.signArea{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #242d34;
+}
+.signCon{
+    margin-top: 100px !important;
+    background-color: white;
+    width: 35%;
+    height: 60vh;
+    margin: auto;
+    text-align: center;
+    color: white !important;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+}
+label{
+    z-index: 0!important;
+}
+.signCon label{
+    outline: white !important;
+}
+.sign_bottomCon{
+    width: 50%;
+    margin: 0 auto;
+}
+#sign-text{
+    color: #242d34;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#sign_email,
+#sign_pass,
+#sign_username{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sign_error{
+    margin-top: 20px;
+    color: #DC3545;
+    font-size: 18px;
+}
+.signArea_close{
+    position: absolute;
+    padding: 5px;
+    border-radius: 20px;
+    left: 2%;
+    top: 2%;
+    color: black;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.signArea_close:hover{
+    background-color: #242d343c;
+}
+.login_error{
+    color: rgb(81, 219, 141);
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+}

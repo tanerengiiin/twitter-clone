@@ -1,0 +1,29 @@
+.feed{
+    width: 50%;
+    border-right: 1px solid var(--twitter-backgorund);
+    overflow-y: scroll;
+}
+.feed::-webkit-scrollbar{
+    display: none;
+}
+
+.feed__header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 1px solid var(--twitter-backgorund);
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home__right__icon{
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.home__right__icon:hover{
+    background-color: var(--twitter-backgorund);
+    transition: all 0.2s ease;
+}
